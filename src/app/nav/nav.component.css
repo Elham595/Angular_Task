@@ -1,0 +1,10 @@
+nav{
+    background-color: rgb(36, 127, 143);
+    height: 80px;
+    font-size: 25px;
+}
+nav h1{
+    color: white;
+    margin-left: 100px;
+    padding-top: 20px;
+}

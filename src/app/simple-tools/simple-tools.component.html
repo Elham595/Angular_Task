@@ -1,0 +1,7 @@
+<div class="innercontainer">
+    <div *ngFor="let product of simple_products" class="element">
+        <img [src]="product.imageUrl" class="image">
+        <h3>{{product.name}}</h3>
+        <h3>${{product.price}}</h3>
+    </div>
+</div>

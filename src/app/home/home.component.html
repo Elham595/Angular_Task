@@ -1,0 +1,10 @@
+<div class="innercontainer">
+    <div *ngFor="let product of products" class="element">
+        <div>
+            <img [src]="product.imageUrl" class="image">
+            <button routerLink="product" class="sync">Sync</button>
+        </div>
+        <h3>{{product.name}}</h3>
+        <h3>${{product.price}}</h3>
+    </div>
+</div>
